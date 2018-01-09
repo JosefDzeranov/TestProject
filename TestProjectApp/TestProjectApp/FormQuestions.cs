@@ -12,7 +12,7 @@ namespace TestProjectApp
 {
     public partial class FormQuestions : Form
     {
-        
+             
         public FormQuestions()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace TestProjectApp
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            textBox1.Text = Program.questions[0];
         }
 
         private void FormQuestions_Load(object sender, EventArgs e)
@@ -28,7 +28,18 @@ namespace TestProjectApp
 
         }
 
-        private void yes_Click(object sender, EventArgs e)
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.Text = Program.questions[1];
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             
         }
