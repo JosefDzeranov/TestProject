@@ -23,7 +23,7 @@ namespace TestProjectApp
             author.ShowDialog();
             //this.Enabled = false;
             //this.Visible = false;
-
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 

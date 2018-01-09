@@ -11,6 +11,8 @@ namespace TestProjectApp
       const int numberOfQuestions = 2;
       const int numberOfAnswers = 4;
 
+      public static List<string[]> usernames = new List<string[]>();
+       
       public static  string[] questions = new string[numberOfQuestions];
       public static string[,] answer = new string[numberOfQuestions, numberOfAnswers];
       public static string[] hisanswer = new string[numberOfQuestions];
@@ -22,6 +24,7 @@ namespace TestProjectApp
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
