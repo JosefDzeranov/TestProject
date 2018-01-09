@@ -74,5 +74,10 @@ namespace TestProjectApp
         {
             Program.hisanswer[1] = Program.answer[1, 3];
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new Result().Show();
+        }
     }
 }

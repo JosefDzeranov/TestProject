@@ -8,8 +8,8 @@ namespace TestProjectApp
 {
    public static class Program
     {
-      const int numberOfQuestions = 2;
-      const int numberOfAnswers = 4;
+       public const int numberOfQuestions = 2;
+       public const int numberOfAnswers = 4;
 
       public static List<string[]> usernames = new List<string[]>();
        
