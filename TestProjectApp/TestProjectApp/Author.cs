@@ -24,15 +24,15 @@ namespace TestProjectApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Иосиф" && textBox2.Text == "Дзеранов")
+            if (textBox1.Text == "" && textBox2.Text == "")
             {
-                MessageBox.Show("Успешная авторизация!");
-                this.Close();
+                MessageBox.Show("ПОля не должны быть пустыми");
             }
             else
             {
-                MessageBox.Show("Неверные данные!");
-                this.Close();
+                string lastName = textBox1.Text;
+                string firstName = textBox2.Text;
+
             }
         }
     }
