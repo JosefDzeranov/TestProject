@@ -24,10 +24,6 @@ namespace TestProjectApp
         [STAThread]
         static void Main()
         {
-            
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
             questions[0] = "Кто ты?";
             questions[1] = "Что делаешь?";
             answer[0, 0] = "Человек";
@@ -41,7 +37,10 @@ namespace TestProjectApp
             rightanswer[0] = "Человек";
             rightanswer[1] = "Кушаю";
 
-            
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+           
         }
     }
 }

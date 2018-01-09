@@ -33,7 +33,6 @@ namespace TestProjectApp
                 string lastName = textBox1.Text;
                 string firstName = textBox2.Text;
                 Program.usernames.Add(new string[2] { lastName, firstName });
-                MessageBox.Show(Program.usernames[0][0]);
                 FormQuestions formquest = new FormQuestions();
                 formquest.Show();
             }
