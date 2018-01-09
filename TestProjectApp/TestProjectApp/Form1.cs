@@ -16,5 +16,17 @@ namespace TestProjectApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Author author = new Author();
+            //author.ShowDialog();
+            ////this.Enabled = false;
+            ////this.Visible = false;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
