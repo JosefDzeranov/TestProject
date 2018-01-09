@@ -12,9 +12,7 @@ namespace TestProjectApp
 {
     public partial class FormQuestions : Form
     {
-        string[] questions = new string[2];
-        string[,] answer = new string[2,4];
-        string[] rightanswer = new string[2];
+        
         public FormQuestions()
         {
             InitializeComponent();
