@@ -45,5 +45,10 @@ namespace TestProjectApp
         {
 
         }
+
+        private void Result_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

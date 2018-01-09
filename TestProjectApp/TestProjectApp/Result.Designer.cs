@@ -72,6 +72,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Result";
             this.Text = "Result";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Result_FormClosed);
             this.Load += new System.EventHandler(this.Result_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
