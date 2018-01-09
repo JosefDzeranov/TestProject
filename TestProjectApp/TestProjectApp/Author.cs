@@ -35,6 +35,7 @@ namespace TestProjectApp
                 Program.usernames.Add(new string[2] { lastName, firstName });
                 FormQuestions formquest = new FormQuestions();
                 formquest.Show();
+                this.Visible = false;
             }
             
         }
