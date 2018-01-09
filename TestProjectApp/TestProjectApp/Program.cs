@@ -8,6 +8,8 @@ namespace TestProjectApp
 {
     static class Program
     {
+        string[] questions;
+        bool[] answer = new bool[3];
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
