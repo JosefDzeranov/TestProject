@@ -26,14 +26,16 @@ namespace TestProjectApp
         {
             if (textBox1.Text == "" && textBox2.Text == "")
             {
-                MessageBox.Show("ПОля не должны быть пустыми");
+                MessageBox.Show("Поля не должны быть пустыми");
             }
             else
             {
                 string lastName = textBox1.Text;
                 string firstName = textBox2.Text;
-
+                FormQuestions formquest = new FormQuestions();
+                formquest.Show();
             }
+            
         }
     }
 }
